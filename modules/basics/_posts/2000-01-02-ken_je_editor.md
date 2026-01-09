@@ -132,7 +132,7 @@ Typ je daarna een punt, dan zal IntelliSense je tonen welke opties `Console` je 
 Ook bij het ingeven van argumenten zal IntelliSense je helpen door te tonen wat voor argumenten je kan gebruiken.  
 _(In het geval van `WriteLine` is dat minder duidelijk omdat er hier erg veel mogelijkheden zijn.)_
 
-![IntelliSense](/img/basics/ken_je_editor/Intellisense.gif)
+![IntelliSense](/img/basics/ken_je_editor/intellisense.gif)
 
 <div class="note protip">
 <p>Op het moment dat IntelliSense je niet meer helpt, zitten er al fouten in je code. Denk dan niet dat je die later wel oplost: zonder IntelliSense maak je ongetwijfeld nog meer fouten en moet je achteraf al die fouten tegelijk oplossen. Haal steeds direct de fouten uit je code voor je verder werkt.</p>
@@ -203,7 +203,8 @@ Hieronder verwacht ik als resultaat van een deling 25, maar het programma toont 
 
 ![Breakpoints](/img/basics/ken_je_editor/breakpoint.gif)
 
-<!-->
+<!--
+
 <div class="header2" markdown = "1">## Een Project Downloaden via Github
 </div>
 
