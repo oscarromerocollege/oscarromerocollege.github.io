@@ -19,10 +19,13 @@ Indien Visual Studio nog niet op je computer staat, dan moet je dit programma ee
 
 Eens gedownload, moet je het installatieprogramma uitvoeren. Je kan akkoord gaan met de standaard opties bij het installeren. Kies zeker voor de **Community** versie: de professional en enterprise versies heb je echt niet nodig, en bovendien zijn die niet gratis. Vermijd de **Community _Insiders_** versie: deze is bedoeld om een omgeving met de allernieuwste snufjes uit te testen, maar is niet stabiel.
 
-Wanneer de installatie gestart is, kan je _Workloads_ kiezen. Voorlopig heb je enkel de _.NET Desktop development_ workload nodig. Bij de _Installation details_ vink je bij _.NET desktop development - Optional_ volgende opties uit: _GitHub Copilot_ en _GitHub Copilot app modernization_. Deze staan het leerproces in de weg.  
-Later in de cursus gebruiken we ook andere workloads, maar op dat moment is het eenvoudig om die toe te voegen.
+Wanneer de installatie gestart is, kan je _Workloads_ kiezen. Voorlopig heb je enkel de _.NET Desktop development_ workload nodig.
 
 ![image](/img/basics/eerste_programma/netWorkload.JPG)
+<div class="note waarschuwing">
+<p>Bij de <i>Installation details</i> vink je bij <i>.NET desktop development - Optional</i> volgende opties uit: <b><i>GitHub Copilot</i></b> en <b><i>GitHub Copilot app modernization</i></b>.<br/>Deze staan het leerproces in de weg.</p>
+</div>
+Later in de cursus gebruiken we ook andere workloads, maar op dat moment is het eenvoudig om die toe te voegen.
 
 ### Launch
 
