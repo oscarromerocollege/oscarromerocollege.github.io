@@ -42,7 +42,7 @@ body {
 }
 
 .sidebar li:hover {
-	background-color: cadetblue;
+	background-color: #952117; /* cadetblue; */
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -55,7 +55,7 @@ body {
 }
 
 .sidebar li.active a:hover {
-	color: cadetblue;
+	color: #952117; /* cadetblue; */
 }
 
 .sidebar li:before {
@@ -92,7 +92,7 @@ body {
 .sidebar li a:before {
 	content: "\f005";
 	font-family: FontAwesome;
-	color: cadetblue;
+	color: #952117; /* cadetblue; */
 	position: absolute;
 	left: 29px;
 	line-height: 1.7;
