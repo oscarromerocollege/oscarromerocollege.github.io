@@ -20,9 +20,9 @@ De _Solution Explorer_ toont de bestanden die bij je code horen op een gestructu
 
 ![SolutionExplorer](/img/basics/ken_je_editor/solution_explorer.png)
 
-Hierboven zie je _Solution Explorer_ met een oefening uit deze cursus. Je ziet de naam `oefening` van de solution en het bijhorende project. `oefening` is de standaard naam voor alle oefeningen in deze cursus. Helemaal onderaan zie je de bestanden `Program.cs` en `Test.cs`. Die hebben we reeds voorzien bij elke oefening. Bij eenvoudige oefeningen zal je code moeten toevoegen aan `Program.cs`. Een meer complexe oefening zoals deze heeft een folder `Oefeningen` met extra `.cs` bestanden. In zo'n geval zal je daar je code moeten schrijven.
+Hierboven zie je _Solution Explorer_ met een oefening uit deze cursus. Je ziet de naam `oefening` van de solution en het bijhorende project. `oefening` is de standaard naam voor alle oefeningen in deze cursus. Helemaal onderaan zie je de bestanden __Program.cs__ en __Test.cs__. Die hebben we reeds voorzien bij elke oefening. Bij eenvoudige oefeningen zal je code moeten toevoegen aan __Program.cs__. Een meer complexe oefening zoals deze heeft een folder __Oefeningen__ met extra `.cs` bestanden. In zo'n geval zal je daar je code moeten schrijven.
 
-In geen geval zal je ooit code moeten aanpassen in het bestand `Test.cs` of in de map `Utils`. De code die daar staat dient om te controleren of je programma werkt zoals het hoort. Zou je die aanpassen dan lijkt het wel of je programma in orde is, maar krijg je gewoon geen meldingen meer over een of meerdere problemen.
+In geen geval zal je ooit code moeten aanpassen in het bestand __Test.cs__ of in de map __Utils__. De code die daar staat dient om te controleren of je programma werkt zoals het hoort. Zou je die aanpassen dan lijkt het wel of je programma in orde is, maar krijg je gewoon geen meldingen meer over een of meerdere problemen.
 
 <div class="note protip">
 <p>De bestanden van een project staan ook ergens op de harddisk van je computer (normaal gezien moeten ze in de folder van jouw repository staan). Je kan ze snel terugvinden door het contextmenu van het project op te roepen (door er rechts op te klikken) en dan de optie <strong>Open Folder in File Explorer</strong> te kiezen.</p>
@@ -32,7 +32,7 @@ In geen geval zal je ooit code moeten aanpassen in het bestand `Test.cs` of in d
 
 ### Code Editor
 
-In _Code Editor_ doe je het meeste werk. Je kan elk `.cs` bestand in je solution openen via een double-click. De vele mogelijkheden van _Code Editor_ komen later nog aan bod. Handig om weten is wel dat je de bestanden in de code editor kan herschikken. Dit is dikwijls nodig omdat je code die je eerder schreef wil zien terwijl je nieuwe code schrijft. Visual Studio laat je toe om meerdere bestanden naast mekaar te tonen. De animatie hieronder toont dit.
+In _Code Editor_ doe je het meeste werk. Je kan elk `.cs` bestand in je solution openen via een double-click. De vele mogelijkheden van _Code Editor_ komen later nog aan bod. Handig om weten is wel dat je de bestanden in de code editor kan herschikken. Dit is dikwijls nodig omdat je code die je eerder schreef wil zien terwijl je nieuwe code schrijft. Visual Studio laat je toe om meerdere bestanden naast elkaar te tonen. De animatie hieronder toont dit.
 
 ![EditorMove](/img/basics/ken_je_editor/code_editor_move.gif)
 
@@ -125,7 +125,7 @@ Toch zal je door aan je code te werken (toevoegen, aanpassen, verwijderen) deze 
 
 ### IntelliSense
 
-Er zijn nog andere manieren waarop de editor je helpt. Zo is er **IntelliSense**: de editor bekijkt constant wat je doet en probeert je te helpen. Wanneer je bijvoorbeeld iets op het scherm wil schrijven, dan zal de editor al na het typen van de eerste letters voorstellen om `Cons` te vervolledigen tot `Console`. Druk je op dat moment op de `Tab`-toets, dan moet je verder niets meer typen.
+Er zijn nog andere manieren waarop de editor je helpt. Zo is er __IntelliSense__: de editor bekijkt constant wat je doet en probeert je te helpen. Wanneer je bijvoorbeeld iets op het scherm wil schrijven, dan zal de editor al na het typen van de eerste letters voorstellen om `Cons` te vervolledigen tot `Console`. Druk je op dat moment op de `Tab`-toets, dan moet je verder niets meer typen.
 
 Typ je daarna een punt, dan zal IntelliSense je tonen welke opties `Console` je geeft. Misschien weet je niet meer precies hoe je iets op het scherm zet? Typ gewoon `write` en IntelliSense toont je enkel de opties waar die lettercombinatie in voorkomt. Je kan dan via de pijltjestoetsen de correcte functie kiezen, en die toevoegen via `Tab`.
 
@@ -195,7 +195,7 @@ Ook voor collega's waarmee je samenwerkt aan een project of die later aanpassing
 <div class="header2" markdown = "1">## Breakpoints
 </div>
 
-Soms werkt je code, maar geeft die niet het gewenste resultaat. Je kan zeker goed naar je code kijken om te zien wat er scheelt, maar ook hier kan de code editor je helpen: Je kan **breakpoints** toevoegen aan je code om het programma te pauseren waar je wil, door te dubbelklikken in de marge. Dat laat je toe de waarde van elke variabele te controleren.
+Soms werkt je code, maar geeft die niet het gewenste resultaat. Je kan zeker goed naar je code kijken om te zien wat er scheelt, maar ook hier kan de code editor je helpen: Je kan __breakpoints__ toevoegen aan je code om het programma te pauseren waar je wil, door te dubbelklikken in de marge. Dat laat je toe de waarde van elke variabele te controleren.
 
 Ook kan je op dat moment de code regel voor regel verder uitvoeren via de shortcut ``F10``.
 
