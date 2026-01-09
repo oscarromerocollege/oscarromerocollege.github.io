@@ -203,6 +203,7 @@ Hieronder verwacht ik als resultaat van een deling 25, maar het programma toont 
 
 ![Breakpoints](/img/basics/ken_je_editor/breakpoint.gif)
 
+<!-->
 <div class="header2" markdown = "1">## Een Project Downloaden via Github
 </div>
 
@@ -219,7 +220,6 @@ Nu de link in het geheugen van je computer zit, open je the ``Team Explorer`` in
 Nu je een lokale kopie van de oefenreeks hebt, kan je de ``solution``, met daarin het project met oefeningen, openen in Visual Studio. Dit doe je door het nieuw toegevoegde project te dubbelklikken en vervolgens te dubbelklikken op de solution. Daarna kan je overschakelen naar de Solution Explorer.
 
 ![Open](/img/basics/ken_je_editor/open_solution.gif)
-
 <div class="header2" markdown = "1">## Je werk opslaan
 </div>
 
@@ -236,5 +236,6 @@ Daarna kan je de projectlocatie openen in de file explorer. Ook dat kan eenvoudi
 ![Zip](/img/basics/ken_je_editor/zip.gif)
 
 _Bij een klein project, zoals deze oefenreeksen, kan je ook enkel de ``.cs`` bestanden selecteren en bewaren. Je kan dan achteraf het project opnieuw downloaden via Github en de ``.cs`` bestanden vervangen._
+-->
 
 <div class="toTop"><a href="#top">Omhoog</a></div>
