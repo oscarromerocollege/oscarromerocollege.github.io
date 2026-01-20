@@ -10,17 +10,28 @@ published: true
 
 Je programma kan gebruik maken van verschillende soorten gegevens. Zo kan je berekeningen maken met getallen, namen gebruiken, enz.
 
-C# maakt gebruik van data types, of gegevenstypes, om met deze verschillende soorten gegevens te werken. Hieronder vind je een overzicht van de gegevenstypes die in de cursus gebruikt zullen worden. In de eerste kolom vind je de naam van het data type, in de tweede kolom zie je het bereik dat dit data type kan hebben, m.a.w. welke waarden er tot dit data type behoren.
+C# maakt gebruik van data types, of gegevenstypes, om met deze verschillende soorten gegevens te werken. Hieronder vind je een overzicht van de gegevenstypes die in de cursus gebruikt zullen worden, met daarin de naam van het data type, de doelgroep (= welke soort waarden), hoeveel RAM-geheugen het inneemt (uitgedrukt in zowel **B**(ytes) als **b**(its)) en het bereik (= welke waarden er tot dit data type behoren). De vetgedrukte _keywords_ zul je in deze cursus het vaakst nodig hebben.
 
-
-| Keyword       | Bereik   |
-| ------------- |-------------    |
-| bool          | true / false         |
-| int           | gehele getallen van -2147483648 tot 2147483647   |
-| float         | kommagetallen van -3.402823e38 tot 3.402823e38        |
-| double        | kommagetallen van -1.79769313486232e308 tot 1.79769313486232e308       |
-| char          | één karakter |
-| string        | een tekenreeks  |
+| Keyword       | Doelgroep                                     | RAM       | Bereik                                                                        |
+| ------------- | --------------------------------------------- | --------- | ----------------------------------------------------------------------------- |
+| `sbyte`       | Kleine, gehele getallen, opsomming            | 1B / 8b   | [-128,127] (-2<sup>7</sup> t/m 2<sup>7</sup> - 1)                             |
+| `byte`        | Positieve, kleine, gehele getallen, opsomming | 1B / 8b   | [0,255] (0 t/m 2<sup>8</sup> - 1)                                             |
+| `short`       | Gehele getallen                               | 2B / 16b  | [-32.768,32.767] (-2<sup>15</sup> t/m 2<sup>15</sup> - 1)                     |
+| `ushort`      | Positieve, gehele getallen                    | 2B / 16b  | [0,65.535] (0 t/m 2<sup>16</sup> - 1)                                         |
+| **`int`**     | Gehele getallen                               | 4B / 32b  | [~ -2,147 miljard, ~ 2,147 miljard]  (-2<sup>31</sup> t/m 2<sup>31</sup> - 1) |
+| `uint`        | Positieve, gehele getallen                    | 4B / 32b  | [0, ~ 4,295 miljard]  (0 t/m 2<sup>32</sup> - 1)                              |
+| `long`        | Gehele getallen                               | 8B / 64b  | -2<sup>63</sup> t/m 2<sup>63</sup> - 1                                        |
+| `ulong`       | Positieve, gehele getallen                    | 8B / 64b  | 0 t/m 2<sup>64</sup> - 1                                                      |
+| **`float`**   | Decimale getallen (floating point)            | 4B / 32b  | Precisie: 6-9 digits                                                          |
+| **`double`**  | Decimale getallen (floating point)            | 8B / 64b  | Precisie: 15-17 digits                                                        |
+| `decimal`     | decimale getallen (exacte voorstelling)       | 16B / 128b| Precisie: 28 of 29 digits (Voor **valuta** gebruik je `decimal`!)             |
+| **`bool`**    | Logische waarde                               | 2B / 16b  | {`true`, `false`}                                                             |
+| **`char`**    | Eén karakter                                  | 2B        | Eén teken in 16b Unicode, wordt genoteerd als b.v. `'a'`, `'T'`, `'!'`, ...   |
+| **`string`**  | Een tekenreeks                                | 2B per teken + 20B meta-info | Kan meerdere tekens zijn, genoteerd als b.v. `"Test"`, `""`, `"a"`, ...  Maximaal 2GB in geheugen (ongeveer 1 miljard tekens)|
+| `DateTime`    | Datum- en tijdinformatie                      | 8B + meta-info | 1/1/0001 00:00:00 t/m 31/12/9999 23:59:59,9999999                             |
+| `DateOnly`    | Datum (enkel in .NET 6 of recenter!)          | 8B        | 1/1/0001 t/m 31/12/9999                                                       |
+| `TimeOnly`    | Datum (enkel in .NET 6 of recenter!)          | 8B        | 00:00:00 t/m 23:59:59,9999999 (=aantal _ticks_(=100ns) sinds middernacht)     |
+| `TimeSpan`    | Tijdsspanne                                   | 8B        | Periode tussen twee tijdstippen, uitgedrukt in _ticks_                        |
 {:.tableBorder}
 
 <div class="header2" markdown = "1">## Wat is een variabele?
